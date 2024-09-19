@@ -12,7 +12,7 @@ https://www.khanacademy.org/computer-programming/ka-project-exporter/51954867913
   		<source src="Glitch_Soundtrack.mp3" type="audio/mpeg">
 	</audio>
 	-->
-	<audio src="/Glitch_Soundtrack.mp3" autoplay></audio>
+	<audio id = 'sound-bar' src="/Glitch_Soundtrack.mp3" controls></audio>
 	<style>
 		
 		
@@ -54,7 +54,11 @@ https://www.khanacademy.org/computer-programming/ka-project-exporter/51954867913
 			align-items: center;
 			width: 100%;
 		}
-		
+		#sound-bar{
+			position:absolute;
+			left:5%;
+			top:95%;
+		}
 </style>
 </head>
 <body id="wrapper">
