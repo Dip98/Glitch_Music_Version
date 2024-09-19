@@ -12,13 +12,16 @@ https://www.khanacademy.org/computer-programming/ka-project-exporter/51954867913
   		<source src="Glitch_Soundtrack.mp3" type="audio/mpeg">
 	</audio>
 	-->
+    <img id = 'dipper98-img' src = 'https://www.shadertoy.com/media/users/Dipper98/profile.png' width = '500'>
 	<audio id="player" src="Glitch_Soundtrack.mp3"></audio>
-	<div> 
+	<div style = 'position:  relative; top:10%;'> 
     	<h1 style = 'color:white'>Music Controls</h1>
   		<button onclick="document.getElementById('player').play()">Play</button> 
   		<button onclick="document.getElementById('player').pause()">Pause</button> 
   		<button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
   		<button onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
+  		<h1 class = 'original'>Original:</h1>
+  		<a class = 'original' target = 'blank' href = 'https://www.khanacademy.org/computer-programming/glitch-game/4773928902115328'><h2>GLITCH [Game]</h2></a>
 	</div>
 	<style>
 		
@@ -61,11 +64,19 @@ https://www.khanacademy.org/computer-programming/ka-project-exporter/51954867913
 			align-items: center;
 			width: 100%;
 		}
-		#sound-bar{
-			position:absolute;
-			left:5%;
-			top:80%;
-		}
+		#dipper98-img{
+        	opacity:0.3;
+            position:absolute;
+            left:0px;
+           	top: 20%;
+        }
+        .original{
+        	text-align:center;
+        	color:white;
+        	position:relative;
+        	left:500%;
+        	top:-75px;
+        }
 </style>
 </head>
 <body id="wrapper">
