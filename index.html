@@ -12,7 +12,13 @@ https://www.khanacademy.org/computer-programming/ka-project-exporter/51954867913
   		<source src="Glitch_Soundtrack.mp3" type="audio/mpeg">
 	</audio>
 	-->
-	<audio id = 'sound-bar' src="/Glitch_Soundtrack.mp3" controls></audio>
+	<audio id="player" src="Glitch_Soundtrack.mp3"></audio>
+	<div> 
+  		<button onclick="document.getElementById('player').play()">Play</button> 
+  		<button onclick="document.getElementById('player').pause()">Pause</button> 
+  		<button onclick="document.getElementById('player').volume += 0.1">Vol +</button> 
+  		<button onclick="document.getElementById('player').volume -= 0.1">Vol -</button> 
+	</div>
 	<style>
 		
 		
